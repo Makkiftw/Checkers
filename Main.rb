@@ -66,6 +66,7 @@ class GameWindow < Gosu::Window
 		$fit_gray = []
 		$fit_magenta = []
 		
+		$ais = ["blue", "green", "orange", "gray", "magenta"]
 		if $ai_only == true
 			$ais << "red"
 		end
